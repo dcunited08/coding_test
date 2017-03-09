@@ -8,9 +8,9 @@
 
 namespace CodingTest;
 
-require_once dirname(__FILE__) . '/../../bootstrap.php';
+use PHPUnit\Framework\TestCase;
 
-class TlsCipherVerifierTest extends \PHPUnit_Framework_TestCase
+class TlsCipherVerifierTest extends TestCase
 {
 
     function testConstruct() {

@@ -7,4 +7,9 @@
          convertWarningsToExceptions="true"
          convertNoticesToExceptions="true"
          stopOnFailure="false">
+    <testsuites>
+        <testsuite name="main">
+            <directory>./tests</directory>
+        </testsuite>
+    </testsuites>
 </phpunit>
